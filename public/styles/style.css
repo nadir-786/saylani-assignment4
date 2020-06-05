@@ -1,0 +1,107 @@
+.bg-brown{
+
+    /* background-color: #c19a6b; */
+    /* background-color: #800020; */
+    /* background-color: #fffdd0; */
+    /* background-color: black; */
+    background-color: rgb(83, 81, 81);
+    /* background-color: rgb(240, 158, 65); */
+}
+.nav-white{
+    color: white!important;
+}
+.dropdown-item:hover{
+    /* background-color: #c19a6b; */
+    background-color: #800020;
+    /* background-color: #fffdd0; */
+    /* background-color: black; */
+    /* background-color: rgb(240, 158, 65); */
+    color: white;
+}
+.fa{
+    padding: 10px;
+    font-size: 20px;
+}
+.nav-item{
+    margin: 0px 20px;
+}
+ .sect-title {
+    position: relative;
+    font-family: 'MrsEavesOT-Roman';
+    padding: 20px 0 10px 0;
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+}
+.sect-title{
+        font-size: 2em;
+        margin-bottom: 1em;
+        text-align: center;    
+}
+.sect-title:after {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid red;
+    width: 90px;
+    bottom: 0;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ed7745;
+}
+.categories-gallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.categories-item{
+    margin: 0px 40px;
+    background-color: rgb(249, 250, 250);
+}
+.img-cont img{
+    height: 50px;
+}
+.categories-item .img-cont{
+    text-align: center;
+}
+.categories-item h3{
+    text-align: center;
+    font-size: 15px;
+}
+.categories-item a{
+    text-decoration: none;
+}
+
+.arrivel-content,.eid-content{
+    margin-top: 60px;
+}
+.card{
+    margin: 5px;
+    width: 25rem!important;
+    text-align: center;
+}
+@media screen and (min-width: 1700px){
+    .card{
+    width: 32rem!important;
+    }
+}
+  .row{
+      margin: 0;
+       justify-content: center;
+       align-items: center;
+    }
+  .img-container{
+    text-align: center;
+}
+.img-container img{
+    height: 300px;
+    width: 300px;
+}
